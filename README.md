@@ -1,2 +1,3 @@
-# photon-buttons
+# Photon Buttons
+
 Firefox's Photon Buttons
