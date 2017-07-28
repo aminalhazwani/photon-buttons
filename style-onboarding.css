@@ -1,0 +1,15 @@
+.onboarding-tour-action-button {
+  padding: 10px 20px;
+  font-size: 15px;
+  font-weight: 600;
+  line-height: 21px;
+  background: #0a84ff;
+  border: 1px solid transparent;
+  border-radius: 0;
+  color: #fff;
+}
+
+.onboarding-tour-action-button:hover:not([disabled]) {
+  background: #0060df;
+  cursor: pointer;
+}

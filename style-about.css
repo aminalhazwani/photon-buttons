@@ -1,0 +1,100 @@
+.private-browsing > a.button {
+  padding: 3px 20px;
+  background-color: #8000d7;
+  border: 1px solid #6000a1;
+  text-decoration: none;
+  display: inline-block;
+  color: white;
+} 
+
+.general > button {
+  -moz-appearance: none;
+  min-height: 30px;
+  color: rgb(51, 51, 51);
+  border: 1px solid rgb(193, 193, 193);
+  -moz-border-top-colors: none !important;
+  -moz-border-right-colors: none !important;
+  -moz-border-bottom-colors: none !important;
+  -moz-border-left-colors: none !important;
+  border-radius: 2px;
+  background-color: rgb(251, 251, 251);
+  font-size: 13.75px;
+}
+
+.general > button {
+  padding: 0 1.5em;
+  border-radius: 0;
+}
+
+.general > button.primary {
+  background-color: rgb(10, 132, 255);
+  border-color: transparent;
+  color: rgb(255, 255, 255);
+}
+
+.general > button:hover {
+  background-color: rgb(235, 235, 235);
+}
+
+.general > button:enabled:hover, 
+.general > button:hover:not([disabled="true"]) {
+  background-color: rgb(235, 235, 235);
+}
+
+.general > button.primary:enabled:hover, 
+.general > button.primary:hover:not([disabled="true"]) {
+  background-color: rgb(0, 96, 223);;
+}
+
+/* Account */
+
+.button-row .button, .button-row button {
+  border-radius: 2px;
+  font-size: 20px;
+  height: 46px;
+  padding: 8px 0;
+}
+
+.button-row .button, .button-row button {
+  font-family: "Fira Sans",Helvetica,Arial,sans-serif;
+  background: #0996f8;
+  border: 1px solid #0670cc;
+  border-top-color: rgb(6, 112, 204);
+  border-right-color: rgb(6, 112, 204);
+  border-bottom-color: rgb(6, 112, 204);
+  border-left-color: rgb(6, 112, 204);
+  color: #fff;
+  cursor: pointer;
+  transition-duration: 150ms;
+  transition-property: background-color;
+  width: 100%;
+}
+
+.button-row .button:active, .button-row button:active {
+  background: #005bab;
+  border-color: #004480;
+}
+
+.button-row button.disabled, .button-row button:disabled {
+  background: #fbfbfb;
+  border-color: #b1b1b1;
+  color: #999;
+  cursor: auto;
+  opacity: .5;
+}
+
+#skip-button {
+  display: block;
+  cursor: pointer;
+  background-color: #0996f8;
+  -moz-appearance: none;
+  color: #fff;
+  border: 1px solid #0670cc;
+  border-radius: 3px;
+  box-shadow: 0 0 0 0 transparent;
+  height: 24px;
+  padding: 3px 10px;
+  font-family: "Fira Sans";
+  font-weight: 300;
+  font-size: 11px;
+}

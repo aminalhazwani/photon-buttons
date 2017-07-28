@@ -1,0 +1,84 @@
+<!doctype html>
+<html class="no-js" lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <title>Photon Buttons</title>
+    <meta name="description" content="An attempt of inventory of all Photon buttons">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://unpkg.com/tachyons@4.7.0/css/tachyons.min.css"/>
+    <link rel="stylesheet" href="style-activity-stream.css">
+    <link rel="stylesheet" href="style-about.css">
+    <link rel="stylesheet" href="style-toolbar.css">
+    <link rel="stylesheet" href="style-onboarding.css">
+  </head>
+  <body class="sans-serif mw7 pa3 center">
+    <h1>Photon Buttons</h1>
+
+    <h2>Activity Stream</h2>
+
+    <h3>Banner</h3>
+    <div class="manual-migration-actions actions">
+      <button><span>No Thanks</span></button>
+      <button class="done"><span>Import Now</span></button>
+    </div>
+
+    <h3>Sidebar</h3>
+    <section class="actions">
+      <button class="done"><span>Done</span></button>
+    </section>
+
+    <h3>Settings</h3>
+    <div class="prefs-pane-button">
+      <button class="prefs-button icon icon-settings" title="Customize your New Tab page"></button>
+    </div>
+
+    <h3>Search</h3>
+    <form class="search-wrapper">
+      <label for="newtab-search-text" class="search-label"></span></label><input id="newtab-search-text" maxlength="256" placeholder="Search the Web" title="Search the Web" autocomplete="off" aria-autocomplete="true" aria-controls="searchSuggestionTable" aria-expanded="false" type="search"><button class="search-button" title="Search"></span></button>
+    </form>
+
+    <h3>Info</h3>
+    <img class="info-option-icon">
+
+    <h3>Context Menu</h3>
+    <button class="context-menu-button"></button>
+
+    <hr class="mv4">
+
+    <h2>Toolbar</h2>
+    <div class="toolbar-button menu badged-update" title="Open menu">
+      <div class="icon"></div>
+    </div>
+
+    <hr class="mv4">
+
+    <h2>About</h2>
+
+    <h3>Private Browsing</h3>
+    <div class="private-browsing">
+      <a xmlns="http://www.w3.org/1999/xhtml" id="startTour" class="button" href="#!">See how it works</a>
+    </div>
+
+    <h3>Preferences General</h3>
+    <div class="general">
+      <button xmlns="http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul" id="setDefaultButton" label="Make Default" accesskey="D" preference="pref.general.disable_button.default_browser">Make Default</button>
+    </div>
+
+    <h3>Accounts</h3>
+    <div style="max-width: 318px">
+      <div class="button-row mb3">
+        <button id="submit-btn" type="submit" class="disabled" disabled>Create account</button>
+      </div>
+      <div class="button-row mb3">
+        <button id="submit-btn" type="submit" class="">Create account</button>
+      </div>
+      <button id="skip-button">Skip this step</button>
+    </div>
+
+    <hr class="mv4">
+
+    <h2>Onboarding</h2>
+    <button id="onboarding-tour-addons-button" class="onboarding-tour-action-button" data-l10n-id="onboarding.tour-addons.button">Show Add-ons in Menu</button>
+  </body>
+</html>
